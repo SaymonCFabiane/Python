@@ -1,0 +1,5 @@
+cidade = str(input('Digite o nome da sua cidade: ').strip())
+print(f'A sua cidade começa com santo?')
+print(cidade[:5].upper() == 'SANTO')
+cidade = cidade.split()
+print(f'{'Santo' in cidade[0]}')

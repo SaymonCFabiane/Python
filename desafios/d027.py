@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome completo: ').strip().title())
+sep = nome.split()
+con = len(sep)
+print(f'O primeiro nome é {sep[0]}')
+print(f'O ultimo nome é {sep[con - 1]}')
